@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+table{
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    width: 80%; /* Az táblázat szélességének beállítása */
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 8px; /* Belső térkitöltés a cellákban */
+}
+
+
+.tabla {
+    border-collapse: collapse;
+}
+
+.tabla th, .tabla td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.tabla tr {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; /* sorok közötti és alatti keret */
+}
